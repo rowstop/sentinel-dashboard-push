@@ -1,5 +1,6 @@
 ## 实现方式
-![yuque_diagram (1)的副本](https://github.com/rowstop/sentinel-dashboard-plus/assets/100893704/995bf4b0-81e7-41b6-9b25-048eee56f359)
+![yuque_diagram (1)](https://github.com/rowstop/rowstop-sentinel-dashboard-push/assets/100893704/a3a9ecb5-ed1a-45e1-8a75-d875d9ecdf90)
+
 
 
 ## 基于Sentinel 1.8.7，支持双向持久化到配置中心。支持 Gateway 模式与常规模式
@@ -9,12 +10,11 @@
 [官方 文档](https://github.com/alibaba/Sentinel/wiki/%E5%9C%A8%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E4%B8%AD%E4%BD%BF%E7%94%A8-Sentinel)
 
 ### 原始模式
-
-![image](https://github.com/rowstop/sentinel-dashboard-plus/assets/100893704/3f8b1d14-9f99-46e6-84ee-6e85e5454818)
+![image](https://github.com/rowstop/rowstop-sentinel-dashboard-push/assets/100893704/5ca45487-b121-4194-a655-f104790d3181)
 
 ### PUSH 模式
+![image](https://github.com/rowstop/rowstop-sentinel-dashboard-push/assets/100893704/0051dafb-fc89-47f7-9b02-f733aa3d99f6)
 
-![image](https://github.com/rowstop/sentinel-dashboard-plus/assets/100893704/d39fe69e-35be-4128-b5bc-48cd1ac27c26)
 
 ### sentinel-dashboard-client
 
