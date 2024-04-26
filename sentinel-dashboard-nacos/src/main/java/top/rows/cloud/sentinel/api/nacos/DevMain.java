@@ -14,7 +14,7 @@ public class DevMain {
         String[] arguments = new String[]{
                 "--server.port=8080",
                 //nacos 服务端地址
-                "--nacos.server-addr=124.222.25.145:8884",
+                "--nacos.server-addr=127.0.0.1:8848",
                 //sentinel 配置所在的命名空间
                 "--nacos.namespace=springboot3",
                 //sentinel 配置所在的组
