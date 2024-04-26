@@ -3,7 +3,7 @@ package top.rows.cloud.sentinel.api.client;
 import com.alibaba.csp.sentinel.dashboard.DashboardApplication;
 
 /**
- * 仅在调试时使用
+ * 仅在 开发环境调试使用
  *
  * @author 张治保
  * @since 2024/4/26

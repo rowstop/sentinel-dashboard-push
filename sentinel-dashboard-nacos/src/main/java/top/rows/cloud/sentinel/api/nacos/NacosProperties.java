@@ -14,18 +14,30 @@ import org.springframework.boot.context.properties.NestedConfigurationProperty;
 @ConfigurationProperties(prefix = "nacos")
 public class NacosProperties {
 
-    private final String serverAddr = "localhost:8848";
-
-    private final String namespace = "public";
-
-    private final String groupId = "SENTINEL";
-
+    /**
+     * nacos 服务端地址
+     */
+    private String serverAddr = "localhost:8848";
+    /**
+     * nacos 服务端用户名 服务端未开启用户名密码验证可以留空或者不配置
+     */
     private String username;
-
+    /**
+     * nacos 服务端密码 服务端未开启用户名密码验证可以留空或者不配置
+     */
     private String password;
+    /**
+     * sentinel 配置所在的命名空间
+     */
+    private String namespace = "public";
+    /**
+     * sentinel 配置所在的组
+     */
+    private String groupId = "SENTINEL";
+
 
     @NestedConfigurationProperty
-    private final DataIdSuffix dataIdSuffix = new DataIdSuffix();
+    private DataIdSuffix dataIdSuffix = new DataIdSuffix();
 
     @Getter
     @Setter
