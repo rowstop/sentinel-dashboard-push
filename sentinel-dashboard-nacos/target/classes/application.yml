@@ -1,0 +1,3 @@
+#nacos:
+#  server-addr: 124.222.25.145:8884
+#  namespace: springboot3
