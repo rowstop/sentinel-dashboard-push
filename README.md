@@ -1,4 +1,4 @@
-## 实现方式
+## 实现方式 （以flow rule 和 nacos 配置中心举例）
 ![yuque_diagram (1)](https://github.com/rowstop/rowstop-sentinel-dashboard-push/assets/100893704/a3a9ecb5-ed1a-45e1-8a75-d875d9ecdf90)
 
 
