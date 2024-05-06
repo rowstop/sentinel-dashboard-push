@@ -24,7 +24,7 @@
         <module>sentinel-dashboard</module>
         <module>sentinel-dashboard-client</module>
         <module>sentinel-dashboard-nacos</module>
-        <!--        <module>sentinel-dashboard-nacos</module>-->
+        <module>sentinel-dashboard-apollo</module>
     </modules>
     
     <dependencies>
