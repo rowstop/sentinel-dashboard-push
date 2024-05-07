@@ -1,4 +1,4 @@
-package top.rows.cloud.sentinel.api.nacos;
+package top.rows.cloud.sentinel.api.apollo;
 
 import com.alibaba.csp.sentinel.dashboard.DashboardApplication;
 
@@ -13,12 +13,9 @@ public class DevMain {
     public static void main(String[] args) {
         String[] arguments = new String[]{
                 "--server.port=8080",
-                //nacos 服务端地址
-                "--nacos.server-addr=127.0.0.1:8848",
-                //sentinel 配置所在的命名空间
-                "--nacos.namespace=public",
-                //sentinel 配置所在的组
-                "--nacos.group-id=SENTINEL",
+                "--apollo.portal-url=http://localhost:10034",
+                "--apollo.token=token",
+                "--apollo.env=DEV"
         };
         DashboardApplication.main(arguments);
     }
