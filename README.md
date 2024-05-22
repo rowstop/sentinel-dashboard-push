@@ -19,7 +19,7 @@
 push 模式， 实现了从 nacos拉取规则配置，支持新增、修改规则配置，由nacos下发规则配置到所有sentinel 客户端
 #### 启动 `java -Dnacos.server-addr=127.0.0.1:8848 -Dnacos.namespace=public  -jar sentinel-dashboard-nacos-1.8.7.jar`
 #### 访问 127.0.0.1:8080
-### 配置
+#### 配置
 ```java
 @Getter
 @Setter
